@@ -7,7 +7,7 @@ El examen consiste en 25 ejercicios de diversos grados de dificultad.
 
 <h2>Objetivos del examen </h2>
 Evaluar el dominio del manejo en SQL, sobre todo en:
-- Funciones groupby, where, having
-- Uso de múltiples joins
-- Uso de subconsultas
-- CTE's
+* Funciones groupby, where, having
+* Uso de múltiples joins
+* Uso de subconsultas
+* CTE's
