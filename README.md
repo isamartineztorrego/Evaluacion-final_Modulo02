@@ -17,4 +17,3 @@ Evaluar el dominio del manejo en SQL, sobre todo en:
 * CTE's
 
 ### Gracias por tu visita
-<img width="241" alt="image" src="https://github.com/isamartineztorrego/Evaluacion-final_Modulo02/assets/162314262/a8b9ad0d-7c0f-4883-8ee4-aa91d1e688c3">
