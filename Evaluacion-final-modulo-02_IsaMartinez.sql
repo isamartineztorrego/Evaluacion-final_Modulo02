@@ -517,27 +517,27 @@ HAVING common_films >0
 ORDER BY actor1, actor2;
 
 -- ------------------------------
--- Previous steps
--- This pulls 40.000 results but it relates actor1 with actor1
-SELECT CONCAT(a1.first_name, ' ', a1.last_name) AS actor1, CONCAT(a2.first_name, ' ', a2.last_name) AS actor2,
-	(SELECT COUNT(*)
-	FROM film_actor AS fa1, film_actor AS fa2
-	WHERE fa1.actor_id = a1.actor_id AND fa2.actor_id = a2.actor_id) AS common_films
-FROM actor AS a1, actor AS a2
-GROUP BY a1.actor_id, a2.actor_id
-ORDER BY actor1, actor2;
+	-- Previous steps
+	-- This pulls 40.000 results but it relates actor1 with actor1
+	SELECT CONCAT(a1.first_name, ' ', a1.last_name) AS actor1, CONCAT(a2.first_name, ' ', a2.last_name) AS actor2,
+		(SELECT COUNT(*)
+		FROM film_actor AS fa1, film_actor AS fa2
+		WHERE fa1.actor_id = a1.actor_id AND fa2.actor_id = a2.actor_id) AS common_films
+	FROM actor AS a1, actor AS a2
+	GROUP BY a1.actor_id, a2.actor_id
+	ORDER BY actor1, actor2;
 
--- This pulls 19.900 results but also pulls those combinations without any common films
-SELECT CONCAT(a1.first_name, ' ', a1.last_name) AS actor1, CONCAT(a2.first_name, ' ', a2.last_name) AS actor2,
-	(SELECT COUNT(*)
-	FROM film_actor AS fa1
-    INNER JOIN film_actor AS fa2
-    ON fa1.film_id = fa2.film_id
-	WHERE fa1.actor_id = a1.actor_id AND fa2.actor_id = a2.actor_id) AS common_films
-FROM actor AS a1
-INNER JOIN actor AS a2
-ON a1.actor_id < a2.actor_id
-GROUP BY a1.actor_id, a2.actor_id
-ORDER BY actor1, actor2;
+	-- This pulls 19.900 results but also pulls those combinations without any common films
+	SELECT CONCAT(a1.first_name, ' ', a1.last_name) AS actor1, CONCAT(a2.first_name, ' ', a2.last_name) AS actor2,
+		(SELECT COUNT(*)
+		FROM film_actor AS fa1
+		INNER JOIN film_actor AS fa2
+		ON fa1.film_id = fa2.film_id
+		WHERE fa1.actor_id = a1.actor_id AND fa2.actor_id = a2.actor_id) AS common_films
+	FROM actor AS a1
+	INNER JOIN actor AS a2
+	ON a1.actor_id < a2.actor_id
+	GROUP BY a1.actor_id, a2.actor_id
+	ORDER BY actor1, actor2;
 
 
