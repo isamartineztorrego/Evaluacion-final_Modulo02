@@ -1,4 +1,4 @@
-<h1>Evaluación Final Módulo 2 (SQL)</h1> [logo_sql](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ASql_data_base_with_logo.png&psig=AOvVaw3srvt7HDvfF7dR-uwKiUnA&ust=1715788569317000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJD5tdPAjYYDFQAAAAAdAAAAABAE)
+<h1>Evaluación Final Módulo 2 (SQL)</h1> [logo_sql](<img width="158" alt="image" src="https://github.com/isamartineztorrego/Evaluacion-final_Modulo02/assets/162314262/972c1659-4b4b-4492-9bda-bb965ec38539">)
 
 Hi there! 👋 Bienvenido al repositorio con mi examen de evaluación final para el módulo 2 del bootcamp Data Analyst.
 
