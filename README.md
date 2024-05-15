@@ -16,6 +16,7 @@ Evaluar el dominio del manejo en SQL, sobre todo en:
 * Funciones `group by`, `where`, `having`
 * Uso de múltiples `joins`
 * Uso de subconsultas
+* Uso de subconsultas correlacionadas
 * CTE's
 * Uso del inglés
 
