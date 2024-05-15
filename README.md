@@ -13,11 +13,11 @@ Para ello, se utilizará la base de datos Sakila, que simula una tienda de alqui
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Goal%20Net.png" alt="Goal Net" width="25" height="25" /> Objetivos principales
 Evaluar el dominio del manejo en SQL, sobre todo en:
-* Funciones `group by`, `where`, `having`
-* Uso de múltiples `joins`
-* Uso de subconsultas
-* Uso de subconsultas correlacionadas
-* CTE's
-* Uso del inglés
+* Funciones `group by`, `where`, `having`.
+* Uso de múltiples `joins`.
+* Uso de subconsultas.
+* Uso de subconsultas correlacionadas.
+* CTE's.
+* Uso del inglés.
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="25" height="25" /> Gracias por tu visita
